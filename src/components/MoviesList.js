@@ -10,7 +10,11 @@ const MovieList = (props) => {
         <Movie
           key={movie.id}
           title={movie.title}
+<<<<<<< HEAD
           releaseDate={movie.release}
+=======
+          releaseDate={movie.releaseDate}
+>>>>>>> 8c836c4a1a5b2862699af16a47a97b934361eec8
           openingText={movie.openingText}
         />
       ))}
